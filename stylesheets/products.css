@@ -1,0 +1,56 @@
+body{
+    background-color: #FAFAFA;
+}
+.border-top{
+    border-top:1px solid rgba(0,0,0,0.5) !important;
+}
+.table{
+    color:#818181 
+}
+.img-size{
+    width:150px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+.p-6{
+    padding: 2.5rem  0.5rem !important;
+}
+
+.form-check-input:checked {
+    background-color: #1a87e0;
+    border-color: #1a87e0;
+}
+.editBtn{
+    color:#818181; 
+}
+.editBtn:hover{
+    color:#464545;
+}
+.deleteBtn{
+    color:#818181;
+}
+.deleteBtn:hover{
+    color:#464545;
+}
+.table>tbody{
+    vertical-align: middle !important;
+}
+
+.page-link{
+    padding:.5rem 1rem;
+
+}
+.page-item.active .page-link{
+    background-color: #818181;
+    border-color: #818181;
+    padding:.5rem 1.25rem;
+}
+.page-item:first-child .page-link{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
